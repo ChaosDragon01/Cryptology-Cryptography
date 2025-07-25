@@ -104,7 +104,7 @@ refined_mapping = {
     'G': 'Z' # Z was Q
 }
 
-{'J', 'X',}
+{'J',} # list of letters that were not used in the mapping, they are not in the ciphertext
 
 
 
