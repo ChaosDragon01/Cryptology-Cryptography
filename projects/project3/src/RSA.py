@@ -203,8 +203,8 @@ def main():
     #Key Verification    
     print(f"\n5. KEY VERIFICATION")
     
-    #verify that encryption and decryption are inverses
-    test_message = 12345
+    # Simple test message :D
+    test_message = plaintext
     if test_message < n:
         encrypted_test = rsa_encryption(public_key, test_message)
         decrypted_test = rsa_decryption(private_key, encrypted_test, n)
